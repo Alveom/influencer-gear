@@ -1,11 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+}
+
 .flex {
   display: flex;
 }
 .grid {
   display: grid;
 }
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Courier New", Courier, monospace;
+
+.pri-color {
+  color: rgb(58, 58, 58);
+}
+.pri-text-fontsize {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-align: left;
+}
+.pri-btn {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-radius: 41px;
+  background: rgb(224, 44, 109);
 }

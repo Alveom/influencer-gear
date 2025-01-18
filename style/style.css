@@ -1,1 +1,75 @@
 /* no prymary styles in here */
+#header {
+  padding: 25px 100px;
+}
+#nav {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-head {
+  color: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-align: left;
+}
+#nav > ul {
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+#nav > ul > li {
+  padding: 15px;
+}
+#nav > ul > li > a {
+  color: inherit;
+  /* inherits: all; */
+  text-decoration: none;
+}
+#nav > ul > li > a > div > img {
+  width: 50px;
+  height: auto;
+}
+#banner {
+  padding: 25px 0;
+}
+.banner-text {
+  color: inherit;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 25px 25px 0;
+  margin-right: 75px;
+}
+.banner-text > h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  padding-bottom: 25px;
+}
+.banner-text > p {
+  padding-bottom: 25px;
+  line-height: 20px;
+}
+.banner-text > button {
+  border: none;
+  padding: 5px;
+  width: 25vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.arrow-img {
+  margin-top: 0.5vh;
+  padding: 2px;
+  width: 5vh;
+}
+.first-img {
+  position: absolute;
+  align-items: left;
+}
+.second-img {
+  position: relative;
+}
