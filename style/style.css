@@ -22,6 +22,14 @@
 #nav > ul > li {
   padding: 15px;
 }
+#nav > ul > li:hover {
+  background: rgb(206, 206, 206);
+  border-radius: 15px;
+
+  transform: rotate(20deg);
+  transition: all 0.5s ease;
+  text-decoration: black solid underline;
+}
 #nav > ul > li > a {
   color: inherit;
   /* inherits: all; */
@@ -60,6 +68,9 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+.banner-text > button:hover {
+  background: rgb(177, 35, 87);
 }
 .arrow-img {
   margin-top: 0.5vh;
