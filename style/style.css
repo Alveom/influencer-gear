@@ -119,3 +119,68 @@
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
 }
+.collection-container :hover {
+  transform: scale(1.1);
+  background: rgb(214, 214, 214);
+}
+.featured-text-container {
+  padding: 25px;
+}
+.featured-text-container > h3 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.featured-text-container > p {
+  font-family: "Poppins";
+  padding: 25px 0;
+}
+.featured-text-container > button {
+  padding: 10px 24px 10px 24px;
+  border-radius: 2px;
+  border: none;
+}
+.featured-text-container > button:hover {
+  transform: scale(1.3);
+  background: rgba(197, 43, 100, 0.87);
+  transition: all 0.5s ease;
+}
+.f-div {
+  padding-top: 30px;
+}
+
+#footer {
+  background-color: black;
+  padding: 150px;
+  color: white;
+}
+.footer-img {
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+}
+.footer-img > img {
+  background: white;
+  border-radius: 55%;
+  width: 5vh;
+}
+.footer-text > h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.footer-text > p {
+  color: rgb(217, 219, 225);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#Featured {
+  margin-bottom: 250px;
+}
