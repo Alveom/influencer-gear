@@ -1,7 +1,5 @@
 /* no prymary styles in here */
-#header {
-  padding: 25px 100px;
-}
+
 #nav {
   justify-content: space-between;
   align-items: center;
@@ -83,4 +81,41 @@
 }
 .second-img {
   position: relative;
+}
+
+.logos-container {
+  border: 1px;
+  padding: 25px;
+  justify-content: space-around;
+}
+.logos-container > div > a :hover {
+  align-items: center;
+  border-radius: 15px;
+  padding: 15px 15px;
+  transition: all 0.6s ease-in;
+}
+#collection {
+  margin: 25px 0;
+}
+#collection > h3 {
+  text-align: center;
+  padding: 25px, 0;
+}
+.div-btn {
+  text-align: right;
+}
+.btn {
+  background: rgb(255, 255, 255);
+  border: none;
+  color: rgba(224, 44, 109, 0.87);
+}
+.collection-container {
+  margin: 25px 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.collection-container > div {
+  padding: 14px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
 }
